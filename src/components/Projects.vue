@@ -1,9 +1,9 @@
 <template>
     <span class="main-content">
         <ul>
-            <li>This Site</li>
             <li>GitHub</li>
             <li>Markov Chain Generator</li>
+            <li><b-button variant="link" href="https://github.com/jacobacon/jacobacon.com">Site Source Code</b-button></li>
         </ul>
     </span>
 </template>

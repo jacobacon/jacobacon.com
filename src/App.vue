@@ -8,6 +8,7 @@
             <b-container fluid class="mt-3">
                 <b-row class="justify-content-center">
                     <b-button variant="link" @click="click='about'">About</b-button>
+                    <b-button variant="link">Blog</b-button>
                     <b-button variant="link" @click="click='contact'" id="contact-button">Contact</b-button>
                     <b-button variant="link" @click="click='projects'">Projects</b-button>
                 </b-row>
@@ -20,7 +21,7 @@
 </template>
 
 <script>
-    import {BContainer, BRow, BButton, BPopover} from 'bootstrap-vue'
+    import {BContainer, BRow, BButton} from 'bootstrap-vue'
     import Projects from "@/components/Projects";
     import About from "@/components/About";
     import Contact from "@/components/Contact";
@@ -32,7 +33,7 @@
             About,
             Projects,
             BContainer, BRow,
-            BButton, BPopover
+            BButton
         },
         data() {
             return {

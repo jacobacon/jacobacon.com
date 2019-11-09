@@ -1,14 +1,16 @@
 <template>
-    <span class="main-content">
-        <p>
+    <b-container class="main-content">
             I'm a human.
-        </p>
-    </span>
+    </b-container>
 </template>
 
 <script>
+    import {BContainer} from 'bootstrap-vue'
     export default {
-        name: "About"
+        name: "About",
+        components: {
+            BContainer
+        }
     }
 </script>
 

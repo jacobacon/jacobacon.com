@@ -20,7 +20,7 @@
         name: "Contact",
         components: {
             BContainer, BButton
-        },
+        }
     }
 </script>
 

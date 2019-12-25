@@ -15,7 +15,4 @@
 </script>
 
 <style scoped>
-    .main-content{
-        color: whitesmoke;
-    }
 </style>

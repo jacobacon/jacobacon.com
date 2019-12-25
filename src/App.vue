@@ -5,11 +5,13 @@
             <h1 class="my-3">
                 Jacob Beneski
             </h1>
+            <h3>Software Engineer | B.S. in Computer Science - <a href="https://www.stedwards.edu"> St. Edwards University</a> | Eagle Scout</h3>
             <b-container fluid class="mt-3">
                 <b-row class="justify-content-center">
                     <b-col><b-button variant="link" @click="content='about'">About</b-button></b-col>
                     <b-col><b-button variant="link" @click="content='contact'">Contact</b-button></b-col>
                     <b-col><b-button variant="link" @click="content='projects'">Projects</b-button></b-col>
+                    <b-col><b-button variant="link">Blog</b-button></b-col>
                 </b-row>
             </b-container>
             <transition name="component-fade" mode="out-in">
@@ -44,7 +46,7 @@
 
 <style>
     body {
-        background: #405b8c !important;
+        background: slategray !important;
     }
 
     #app {
@@ -56,8 +58,18 @@
     }
 
     h1 {
-        color: whitesmoke;
         font-size: 5.5rem !important;
+    }
+
+    h1, h3, a {
+        color: whitesmoke !important;
+    }
+
+    .main-content{
+        padding: 10px;
+        color: whitesmoke;
+        background-color: slategray;
+        border-style: groove;
     }
 
     @media (max-width: 575.98px) {
@@ -96,15 +108,6 @@
     button, .btn-link {
         color: whitesmoke !important;
         font-size: 2.5rem !important;
-    }
-
-    .background {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: -1;
     }
 
     .content {

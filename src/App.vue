@@ -8,10 +8,11 @@
             <h3>Software Engineer | B.S. in Computer Science - <a href="https://www.stedwards.edu"> St. Edwards University</a> | Eagle Scout</h3>
             <b-container fluid class="mt-3">
                 <b-row class="justify-content-center">
-                    <b-col><b-button variant="link" @click="content='about'">About</b-button></b-col>
-                    <b-col><b-button variant="link" @click="content='contact'">Contact</b-button></b-col>
-                    <b-col><b-button variant="link" @click="content='projects'">Projects</b-button></b-col>
-                    <b-col><b-button variant="link">Blog</b-button></b-col>
+                    <b-col><b-button variant="link" @click="content='about'"><font-awesome-icon icon="user"/>&nbsp;About</b-button></b-col>
+                    <b-col><b-button variant="link" @click="content='contact'"><font-awesome-icon icon="address-card"/>&nbsp;Contact</b-button></b-col>
+                    <b-col><b-button variant="link" @click="content='projects'"><font-awesome-icon icon="code"/>&nbsp;Projects</b-button></b-col>
+                    <b-col><b-button variant="link" href="https://blog.jacobacon.com" target="_blank"><font-awesome-icon icon="blog"/>&nbsp;Blog</b-button></b-col>
+                    <font-awesome-icon icon="linkedin"/>
                 </b-row>
             </b-container>
             <transition name="component-fade" mode="out-in">
@@ -46,7 +47,7 @@
 
 <style>
     body {
-        background: slategray !important;
+        background: #4f5964 !important;
     }
 
     #app {

@@ -12,7 +12,6 @@
                     <b-col><b-button variant="link" @click="content='contact'"><font-awesome-icon icon="address-card"/>&nbsp;Contact</b-button></b-col>
                     <b-col><b-button variant="link" @click="content='projects'"><font-awesome-icon icon="code"/>&nbsp;Projects</b-button></b-col>
                     <b-col><b-button variant="link" href="https://blog.jacobacon.com" target="_blank"><font-awesome-icon icon="blog"/>&nbsp;Blog</b-button></b-col>
-                    <font-awesome-icon icon="linkedin"/>
                 </b-row>
             </b-container>
             <transition name="component-fade" mode="out-in">
@@ -69,7 +68,7 @@
     .main-content{
         padding: 10px;
         color: whitesmoke;
-        background-color: slategray;
+        background-color: #21262c;
         border-style: groove;
     }
 

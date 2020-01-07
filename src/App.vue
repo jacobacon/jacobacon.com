@@ -15,7 +15,7 @@
                 </b-row>
             </b-container>
             <transition name="component-fade" mode="out-in">
-                <component :is="content"></component>
+                <component :is="content" class="mb-3"></component>
             </transition>
         </b-container>
     </div>

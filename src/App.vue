@@ -10,8 +10,9 @@
                 <b-row class="justify-content-center">
                     <b-col><b-button variant="link" @click="content='about'"><font-awesome-icon icon="user"/>&nbsp;About</b-button></b-col>
                     <b-col><b-button variant="link" @click="content='contact'"><font-awesome-icon icon="address-card"/>&nbsp;Contact</b-button></b-col>
+                    <b-col><b-button variant="link" href="/files/Resume-Jacob_Beneski.pdf" download><font-awesome-icon icon="file-alt"/>&nbsp;Resume</b-button></b-col>
                     <b-col><b-button variant="link" @click="content='projects'"><font-awesome-icon icon="code"/>&nbsp;Projects</b-button></b-col>
-                    <b-col><b-button variant="link" href="https://blog.jacobacon.com" target="_blank"><font-awesome-icon icon="blog"/>&nbsp;Blog</b-button></b-col>
+
                 </b-row>
             </b-container>
             <transition name="component-fade" mode="out-in">

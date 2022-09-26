@@ -5,7 +5,7 @@
             <h1 class="my-3">
                 Jacob Beneski
             </h1>
-            <h3>Software Engineer | B.S. in Computer Science - <a href="https://www.stedwards.edu"> St. Edwards University</a> | Eagle Scout</h3>
+            <h3>DevOps Engineer @ General Motors | B.S. in Computer Science - <a href="https://www.stedwards.edu"> St. Edwards University</a> | Eagle Scout</h3>
             <b-container fluid class="mt-3">
                 <b-row class="justify-content-center">
                     <b-col><b-button variant="link" @click="content='about'"><font-awesome-icon icon="user"/>&nbsp;About</b-button></b-col>

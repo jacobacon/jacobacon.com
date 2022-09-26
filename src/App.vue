@@ -109,6 +109,19 @@
     button, .btn-link {
         color: whitesmoke !important;
         font-size: 2.5rem !important;
+        text-decoration: none !important;
+    }
+
+    .btn-link:hover {
+        text-decoration: underline !important;
+    }
+
+    a {
+        text-decoration: none !important
+    }
+
+    a:hover {
+        text-decoration: underline !important
     }
 
     .content {

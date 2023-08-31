@@ -12,7 +12,6 @@
                     <b-col><b-button variant="link" @click="content='contact'"><font-awesome-icon icon="address-card"/>&nbsp;<span>Contact</span></b-button></b-col>
                     <b-col><b-button variant="link" href="/files/Resume-Jacob_Beneski.pdf" download><font-awesome-icon icon="file-alt"/>&nbsp;<span>Resume</span></b-button></b-col>
                     <b-col><b-button variant="link" @click="content='projects'"><font-awesome-icon icon="code"/>&nbsp;<span>Projects</span></b-button></b-col>
-
                 </b-row>
             </b-container>
             <transition name="component-fade" mode="out-in">
